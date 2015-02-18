@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	display: inline-block;
+	vertical-align: top;
+}
+
+body {
+	width: 970px;
+}
+
+a {
+	color: blue;
+}
+
+#nav {
+	display: block;
+}
+	#nav ul {
+		background-color: #eee;
+		border-radius: 5px;
+		margin: -10px 0 0 530px;
+		border: 1px solid gray;
+		display: inline-block;
+		padding: 8px 7px;
+		font-size: 11px;
+	}
+	#nav ul li:last-child {
+		border-right: none;
+	}
+
+	#nav ul li {
+		padding: 0 8px;
+		border-right: 1px solid gray;
+	}
+	#nav a {
+		margin-top: 1px;
+		font-size: 11px;
+		margin-left: 15px;
+		padding: 4px 15px;
+		vertical-align: top;
+		border-radius: 3px;
+		background-color: blue;
+		color: white;
+		text-decoration: none;
+	}
+
+#header {
+	display: block;
+	margin: 10px;
+}
+	#header h1 {
+		padding-top: 10px;
+		display: inline-block;
+	}
+
+#sub-header {
+	display: block;
+	background-color: blue;
+	padding: 15px;
+}
+	#sub-header h3 {
+		color: white;
+	}
+#gray {
+	min-height: 10px;
+	background-color: #eee;
+	display: block;
+}
+
+#blue {
+
+}
+
+#orange {
+
+}
+
+#sidebar {
+	width: 210px;
+	margin-top: -10px;
+}
+
+.home{
+
+}
+	.home img {
+		margin-left: 300px;
+		margin-top: 2px;
+	}
+	.home h6 {
+		margin-right: 3px;
+	}
+	.home h2 {
+		margin-right: 3px;
+		color: blue;
+		margin-top:-7px;
+	}
+	.home h5 {
+		margin-top: 6px;
+		margin-right: 80px;
+		color: blue;		
+	}
+	.home div {
+		max-width: 188px;
+		background: red;
+		text-align: ;
+	}
+
+#main {
+	border-top: 2px solid #eee;
+}
