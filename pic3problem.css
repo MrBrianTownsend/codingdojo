@@ -3,11 +3,16 @@
 	padding: 0;
 	border: 0;
 	vertical-align: top;
+	display: inline-block;
+	font-family: arial;
 }
+
 body {
 	display: block;
 	margin: 0 auto;
-	width: 975px;
+	width: 970px;
+	background-color:#FFFFFF;
+	margin-top: -20px;
 }
 
 a {
@@ -25,28 +30,26 @@ a {
 		border: 1px solid gray;
 		display: inline-block;
 		padding: 8px 7px;
-		font-size: 11px;
+		font-size: 10px;
 	}
 	#nav ul li:last-child {
 		border-right: none;
 	}
 
 	#nav ul li {
-		display: inline-block;
-		padding: 0 8px;
+		padding: 5px 8px 0 8px;
 		border-right: 1px solid gray;
 	}
 	#nav a {
-		margin-top: 1px;
+		margin-top: 3px;
 		font-size: 11px;
 		margin-left: 15px;
 		padding: 4px 15px;
 		vertical-align: top;
 		border-radius: 3px;
-		background-color: blue;
+		background: linear-gradient(to bottom, #3CB8FC,#1D99E0, #137CC4);
 		color: white;
 		text-decoration: none;
-		display: inline-block;
 	}
 
 #header {
@@ -60,23 +63,21 @@ a {
 
 #sub-header {
 	display: block;
-	background-color: blue;
+	background-color: #137CC4;
 	padding: 15px;
 }
 	#sub-header h3 {
 		color: white;
 	}
 #gray {
-	min-height: 10px;
-	background-color: #eee;
+	min-height: 20px;
+	background:linear-gradient(to bottom, #ddd, #FFFFFF);
 	display: block;
-	display: inline-block;
 }
 
 #sidebar {
 	max-width: 195px;
 	margin: -10px 0 0 3px;
-	display: inline-block;
 }
 	#sidebar a{
 		border-radius:3px;
@@ -86,18 +87,19 @@ a {
 		padding: 5px 0;
 		font-size: 13px;
 		font-weight:bold;
-		display: inline-block;
 	}
 	#sidebar h5 {
-		display: inline-block;
-		color: blue;
+		color: #137CC4;
 		margin-left: 3px;
+		font-size: 14px;
 	}
 	#sidebar h6{
 		display: inline-block;
 		margin-left: 3px;
+		font-size: 10px;
 	}
 	#profits {
+		padding-top: 5px;
 		color: red;
 		display:block;
 	}
@@ -111,16 +113,14 @@ a {
 		margin-left: 3px;
 	}
 	#sidebar img {
-		display: inline-block;
 		max-width: 90%;
-		margin-top: 5px;
+		margin-top: 15px;
 	}
 
 #demo {
-	background-color:blue;
+	background:linear-gradient(to bottom,#1D99E0,#137CC4);
 	display: block;
-	margin: 10px 3px 3px 3px;
-	display: inline-block;
+	margin: 20px 3px 3px 3px;
 }
 
 #trial {
@@ -130,39 +130,52 @@ a {
 }
 
 .home{
-	border: 1px solid black;
+/*	border: 1px solid black;*/
 	min-height: 60px;
-	display: inline-block;
+	margin-top: -10px;
 }
 	.home img {
-		margin-left: 300px;
+		margin-left: 225px;
 		margin-top: 2px;
-		display: inline-block;
 	}
 	.home h6 {
-		margin-right: 3px;
-		display: inline-block;
+		color: #aaa;
+		font-size: 9px;
+		margin: 0 10px 0 -10px;
 	}
-	.home h2 {
-		margin-right: 3px;
-		color: blue;
-		margin-top:-7px;
-		display: inline-block;
+	.home h3 {
+		color: #39ADEF;
+		font-size: 21px;
+		margin: -5px 10px -5px -10px;
 	}
 	.home h5 {
 		margin-top: 6px;
-		margin-right: 80px;
-		color: blue;
-		display: inline-block;		
+		margin-right: 280px;
+		color: #137CC4;		
 	}
 	.home div {
-		max-width: 188px;
-		background: red;
-		text-align: ;
-		display: inline-block;
+		text-align: center;
+		max-width: 135px;
+/*		background: red;*/
+		padding-top: 3px;
 	}
 
 #main {
+	margin-top: 3px;
 	border-top: 2px solid #eee;
-	display: inline-block;
+	width: 725px;
+	margin-left: 20px;
+}
+	#main h4 {
+		margin-top: 5px;
+		color:#137CC4;
+		font-weight: bold;
+		margin-bottom: 10px;
+	}
+	#main p {
+		font-size: 13px;
+	}
+
+.list {
+	margin: 10px 5px 0 10px;
 }
